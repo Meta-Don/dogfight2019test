@@ -15,7 +15,7 @@ public abstract class EventPerformer implements IEventPerformer {
 		
 	}
 	
-	public UserOrder keyCodeToUserOrder(int keyCode) {
+	private UserOrder keyCodeToUserOrder(int keyCode) {
 		return ;
 	}
 	
