@@ -13,11 +13,11 @@ public class GraphicsBuilder {
 		
 	}
 	
-	public void buildEmptySky() {
+	private void buildEmptySky() {
 		
 	}
 	
-	public void drawMobile(IMobile modbile, ImageObserver observer) {
+	private void drawMobile(IMobile modbile, ImageObserver observer) {
 		
 	}
 	
