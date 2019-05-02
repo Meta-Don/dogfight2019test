@@ -1,5 +1,20 @@
 package jpu2019.dogfight.view;
 
-public class EventPerformer {
+import jpu2019.dogfight.controller.IOrderPerformer;
+import jpu2019.dogfight.controller.UserOrder;
 
+public class EventPerformer {
+	
+	public EventPerformer(IOrderPerformer orderPerformer) {
+		
+	}
+	
+	public void eventPerform(KeyEvent keyCode) {
+		
+	}
+	
+	public UserOrder keyCodeToUserOrder(int keyCode) {
+		
+	}
+	
 }
