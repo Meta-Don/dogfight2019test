@@ -9,7 +9,7 @@ public class DogfightView implements Runnable, IViewSystem {
 	}
 	
 	public void run() {
-		
+		//Why are you running
 	}
 	
 	@Override
