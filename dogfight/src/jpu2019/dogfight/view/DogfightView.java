@@ -8,7 +8,7 @@ public class DogfightView implements Runnable, IViewSystem {
 		
 	}
 	
-	public void run() {
+	private void run() {
 		//Why are you crying
 	}
 	
