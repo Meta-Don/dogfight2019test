@@ -3,15 +3,16 @@ package jpu2019.dogfight.view;
 import jpu2019.dogfight.model.IDogfightModel;
 import java.awt.image.BufferedImage;
 
-public class GraphicsBuilder {
+import jpu2019.gameframe.Graphics;
+import jpu2019.gameframe.IGraphicsBuilder;
+import jpu2019.gameframe.ImageObserver;
 
-	public void GraphicsBuilder(IDogfightModel dogfightModel) {
+public class GraphicsBuilder implements IGraphicsBuilder {
+
+	public GraphicsBuilder(IDogfightModel dogfightModel) {
 		
 	}
 	
-	public void applyModelToGraphics(Graphics graphics, ImageObserver observer) {
-		
-	}
 	
 	private void buildEmptySky() {
 		
@@ -20,13 +21,27 @@ public class GraphicsBuilder {
 	private void drawMobile(IMobile modbile, ImageObserver observer) {
 		
 	}
-	
+
+
+	@Override
+	public void applyModelToGraphics(Graphics graphic, ImageObserver observer) {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	@Override
 	public int getGlobalWidth() {
-		return ;
+		// TODO Auto-generated method stub
+		return 0;
 	}
-	
+
+
+	@Override
 	public int getGlobalHeight() {
-		return ;
+		// TODO Auto-generated method stub
+		return 0;
 	}
+
 	
 }

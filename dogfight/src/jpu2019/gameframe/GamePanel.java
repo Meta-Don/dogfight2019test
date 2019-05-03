@@ -4,18 +4,20 @@ import java.util.Observer;
 import java.util.Observable;
 import javax.swing.JPanel;
 
-public class GamePanel {
+public class GamePanel extends JPanel implements Observer {
 
-	public GamePanel() {
+	public GamePanel(IGraphicsBuilder graphicBuilder) {
 		
 	}
 	
+	@Override
 	public void update(Observable observable) {
 		
 	}
 	
-	public void pathComponent(Graphics graphic) {
+	public void paintComponent(Graphics graphic) {
 		
 	}
 	
+
 }
